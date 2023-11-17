@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter+Tight&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@500&display=swap');
+
+body, html {
+    background: #81ccfa; /* fallback color */
+    background: linear-gradient( to bottom, #81ccfa, #f7e0fe);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.bg-light {
+    background: #ed9dfe !important; 
+    box-shadow: 0px 5px 10px #7441be;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif; 
+    color: white;
+    text-shadow: -2px 2px 5px #230e63;
+}
+
+h2 {
+    font-family: 'Lobster Two', sans-serif;
+    color: white;
+    text-shadow: -2px 2px 5px #230e63;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 1.55rem;
+}
+
+
+h4 {
+    font-weight: bolder;
+    font-size: 1.45rem;
+}
+
+h5 {
+    font-weight: bolder;
+    font-size: 1.35rem;
+}
+
+h6 {
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+
+
+
+.navbar-brand {
+    font-family: 'Agbalumo', sans-serif; 
+    color: #002bca;
+    font-weight: bold;
+    text-shadow:
+    1px 1px 1px #ffff,
+    -1px 1px 1px #ffff,
+    -1px -1px 1px #ffff,
+    1px -1px 1px #ffff;
+    font-size: 1.75rem;
+}
+
+.nav-link {
+    color: #230e63;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.nav-link:hover {
+    color: #4b4364;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.nav-link.active {
+    color: #230e63;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500;
+    color: #230e63;
+    font-size: 1.15rem;
+    text-shadow: 0px 0px 3px #ffff, 0px 0px 6px #ffff;
+}
+
+p a {
+    text-shadow: 0px 0px 3px #ffff;
+    color: #002ec6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: #ffffe2;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #002ec6;
+}
+
+li a:hover {
+    color: #ffffe2;
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow:
+    0px 0px 1px  #000;
+}
+
+.d-flex{
+    gap:20px;
+}
+
+.table-striped.table-bordered.table-hover>tbody>tr:nth-child(odd)>td {
+   background-color: rgb(255, 227, 255); 
+ }
+
+#dark-head{
+    background-color: rgb(255, 227, 255) !important; 
+}
+
+.no-ul-style{
+    list-style-type: none;
+}
